@@ -12,7 +12,23 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <section class="container flex">
+    <header>
+        <ul class="header">
+            <li class="header__nav_item"> 
+                <a href="#home">Home</a> 
+            </li>
+            <li class="header__nav_item"> 
+                <a href="#about-us">About us</a> 
+            </li>
+            <li class="header__nav_item"> 
+                <a href="#review">Review</a> 
+            </li>
+            <li class="header__nav_item"> 
+                <a href="#followers">Followers</a> 
+            </li>
+        </ul>
+    </header>
+    <section id="home" class="container flex">
         <div class="container__info">
             <h1 class="heading_primary"><span class="orange--colour">Skip </span>The Diet, <br> Just Eat Healthy <br> With Food Network</h1>
             <p class="paragraph_primary">Eating healthy food is important for good health.  <br> Please, eat healthy food</p>
@@ -22,7 +38,7 @@
             <img src="images/female/fast.png" alt="female with food">
         </div>
     </section>
-    <section class="container container--background flex">
+    <section id="about-us" class="container container--background flex">
         <div class="container__img">
             <img id='small_image' src="images/female/secend.png" alt="female with food">
         </div>
@@ -32,7 +48,7 @@
             <button class="container__btn gradient--background">Contact Me</button>
         </div>
     </section>
-    <section class="container  container--padding-top-0">
+    <section id="review" class="container  container--padding-top-0">
         <div class="container--text-center">
             <h2 class="heading_secondary">What Others Are Saying</h2>
             <p class="paragraph_primary">Wonderful experience! Chef Devan made our trip spectacular in every way. Planning was so easy and  <br>  the food was unbelievable.Great menu suggestions, fresh ingredients and skillful execution. <br> -AirBnB Getaway client</p>
@@ -61,7 +77,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex subscriptions ">
+        <div id="followers" class="flex subscriptions ">
             <div class="subscriptions__amounts">
                 <h2 class="heading_secondary">700K</h2>
                 <p class="paragraph_secondary">Youtube subscription</p>

@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     padding: 0;
@@ -12,6 +15,26 @@ body{
 .gradient--background{
     background-image: linear-gradient(to right,orange,rgb(233, 48, 48));
 }
+header{
+    height: 60px;
+    background-color: #FEF3EC;
+}
+.header{
+    margin: 0 auto;
+    padding: 18px 30px;
+    text-align: right;
+}
+.header__nav_item{
+    list-style: none;
+    display: inline-block;
+}
+.header__nav_item a{
+    margin-right:  50px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
 .container{
     padding: 80px 120px; 
 }
